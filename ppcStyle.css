@@ -1,0 +1,151 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#container{
+	position: relative;
+	width: 1000px;
+	height:1000px;
+	background-color: black;
+	margin: 0px auto;
+}
+
+#header{
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background-color: #f2f2f2;
+}
+
+#top-h,#bottom-h{
+	width: inherit;
+	background-color: inherit;
+	margin: 0px;
+}
+
+#top-h img{
+	position: absolute;
+	left: 35px;
+}
+
+#top-h h2{
+	font-weight: bold;
+	color: black;
+	font-family: arial;
+	position: absolute;
+	right: 35px;
+	margin-top: 20px;
+}
+
+#bottom-h ul{
+	position: absolute;
+	display: block;
+	margin-top: 75px;
+	background-color: #e6e6e6;
+	width: 100%;
+	height: 50px;
+}
+
+#bottom-h ul li{
+	margin-top:10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+	display: inline-block;
+
+}
+
+#bottom-h button{
+	padding:5px 10px;
+	background-color: inherit;
+	border-right:3px solid grey;
+	border-left:3px solid grey;
+}
+
+#top-content{
+	background-color: inherit;
+	width: 1000px;
+	height:370px;
+	display: inline-block;
+}
+
+#top-content img{
+	padding: 15px;
+}
+
+#about{
+	background-color:#302c2d;
+	width:525px;
+	height: 350px;
+	display: inline-block;
+	margin: 15px;
+
+}
+
+#about h2{
+	background-color:#ffc628;
+	width: auto;
+	text-align: left;
+}
+#about #heritage{
+	padding:15px 15px 0px 15px;
+	color: white;
+	font-family: arial;
+	font-size: 0.95em;
+}
+
+#msg{
+	width: 100%;
+	height:auto;
+	background-color: inherit;
+	color:#ffc628;
+}
+
+#msg img{
+	width: 100px;
+	height: auto;
+	margin-left:15px;
+	display: inline-block;
+}
+
+#msg p{
+	font-family: arial;
+	font-size: smaller;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#bottom-content{
+	width:1000px;
+	height: 350px;
+	display: inline-block;
+}
+
+.short{
+	display: inline-block;
+	background-color:white;
+	width: 200px;
+	height: 280px;
+	margin: 15px; 
+}
+
+.short h3{
+	background-color:#ffc628; 
+	width: auto;
+	text-align: left;
+}
+
+.short img{
+	width: inherit;
+	height: auto;
+}
+
+.short p{
+	padding-left: 2px;
+	font-family: arial;
+	font-size: smaller;
+}
+
+.short input{
+	margin-left: 100px;
+}
